@@ -20,8 +20,9 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color:grey ;  /* achtergrondkleur lichtgrijs */
+  color: #303030;     
+  background-image:url("afbeeldingen/yepablo.jpg")          /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -32,7 +33,7 @@ div {                             /* geldt voor div */
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  margin: 10px auto;             /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
