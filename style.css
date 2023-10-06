@@ -21,20 +21,24 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color:grey ;  /* achtergrondkleur lichtgrijs */
-  color: black;     
+  color: white;     
   
 }  
 
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+  background-color: rgba(0,0,0,0.5);
+
 }
 
 /* Indeling voor alle pagina's */
 
-.page {
+#page {
   width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;   
-  opacity: 1;          /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  margin: 50px auto;   
+  opacity: 1;        /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  float:left;
+  margin-left: 50px;
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -66,10 +70,17 @@ img {
   float:left;
   width:250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  opacity:1;
+  margin-left:15px;
+  margin-top: 100px;
 }
 .item-tekst {
   float:right;
-  width: 450px;
+  width: 400px;
+  font-size: 30px;
+  -webkit-text-stroke: 0.5px white; 
+  color:white;
+  margin-right: 30px;
 }
 
 /* Indeling voor sub pagina */
@@ -77,7 +88,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: white;
 }
 
 .smalltext {
@@ -118,11 +129,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: black;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: grey;
 }
 #hfdpagina {
   background-image:url("afbeeldingen/pabloye.jpeg") ;     
@@ -130,5 +141,6 @@ nav li a.active {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1200px;
+  
 }
 
