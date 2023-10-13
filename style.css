@@ -144,3 +144,13 @@ nav li a.active {
   
 }
 
+.blabla {
+  margin:10px;
+}
+.page1 {
+  width: 700px;                  
+  margin: 50px auto;   
+  opacity: 1;        
+  float:right;
+  margin-right: 50px;
+}
