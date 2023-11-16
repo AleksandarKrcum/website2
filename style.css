@@ -154,3 +154,13 @@ nav li a.active {
   float:right;
   margin-right: 50px;
 }
+#pagina2 {
+  background-image:url("afbeeldingen/ye-donda.jpg") ;     
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+#main {
+  padding: 10px;
+}
